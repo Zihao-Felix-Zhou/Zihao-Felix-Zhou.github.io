@@ -57,6 +57,26 @@
       text-decoration: underline;
     } 
 
+    .container {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    .image {
+      flex: 0 0 auto; 
+      margin-right: 20px;
+    }
+    .image img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .description {
+      flex: 1;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
     .footer {
       text-align: center;
       font-size: 0.9em;
@@ -140,6 +160,16 @@ in <i>2021 Optical Fiber Communication Conference (OFC)</i>,
 fff
 </p>
 
+<div class="container">
+<div class="image">
+  <img src="structure.png" alt="描述图片">
+</div>
+<div class="description">
+  <h2>图片说明标题</h2>
+  <p>这里是对图片的详细描述内容，可以包括用途、背景、分析结果等。</p>
+  <p>你还可以添加更多段落，或者嵌入列表、链接、引用等内容。</p>
+</div>
+</div>
 
 <div class="footer">
   &copy; 2025 Felix Z. Zhou
