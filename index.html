@@ -77,6 +77,33 @@
       font-size: 20px;
       line-height: 1.5;
     }
+
+    nav {
+      width: 200px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      height: 100vh;
+      position: fixed;
+      overflow-y: auto;
+    }
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    nav a:hover {
+      color: #007bff;
+    }
+    .h2-link {
+      margin-left: 10px;
+      font-size: 13px;
+    }
     
     .footer {
       text-align: center;
@@ -88,9 +115,14 @@
 </head>
 <body>
 
+<nav>
+  <a href="#sec1">Section 1</a>
+</nav>
+
+<div class="content">
 <h1>Felix, Zihao Zhou</h1>
 
-<h2>About me</h2>
+<h2 id="sec1">About me</h2>
 
 <p>
 I am going to start my doctoral career at the <a href="https://www.eee.hku.hk/">Department of Electrical and Electronic Engineering</a>, 
@@ -176,6 +208,8 @@ Moreover, the platform is highly extensible, allowing users to customize and dev
 
 <div class="footer">
   &copy; 2025 Felix Z. Zhou
+</div>
+
 </div>
 
 </body>
