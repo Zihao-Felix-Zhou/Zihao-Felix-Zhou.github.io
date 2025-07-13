@@ -75,23 +75,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-/* .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.logo:hover {
-  color: var(--secondary-color);
-} */
 
 .nav-links {
   display: flex;
@@ -112,7 +100,7 @@ body {
 .nav-links li a:hover {
   color: var(--primary-color);
   background-color: var(--light-gray);
-}
+} */
 
 .theme-toggle, .language-toggle {
   cursor: pointer;
