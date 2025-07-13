@@ -63,33 +63,6 @@ body {
   padding: 0 20px;
 }
 
-/* 导航栏 */
-/* .header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background-color: var(--header-bg);
-  box-shadow: var(--header-shadow);
-  z-index: 1000;
-  padding: 15px 0;
-  transition: all 0.3s ease;
-}
-
-.theme-toggle, .language-toggle {
-  cursor: pointer;
-}
-
-.theme-toggle i {
-  font-size: 1.2rem;
-  color: var(--text-color);
-  transition: var(--transition);
-}
-
-.theme-toggle i:hover {
-  color: var(--secondary-color);
-  transform: rotate(30deg);
-} */
-
 /* 汉堡菜单 */
 .hamburger {
   display: none;
@@ -134,11 +107,11 @@ body {
 
 .profile-image-container {
   text-align: center;
-  flex: 0 0 430px;
+  flex: 0 0 330px;
 }
 
 .profile-image {
-  max-width: 430px;
+  max-width: 330px;
   width: 100%;
   border-radius: 14px;
   box-shadow: var(--box-shadow);
