@@ -294,7 +294,7 @@ body {
 
 .bio {
   font-size: 20px;
-/*   margin-bottom: 18px; */
+  margin-bottom: 18px; 
   text-align: justify;
   color: var(--text-color);
 }
