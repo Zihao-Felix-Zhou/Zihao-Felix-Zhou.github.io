@@ -293,11 +293,10 @@ body {
 }
 
 .bio {
-  margin-bottom: 18px;
+  font-size: 30px;
+/*   margin-bottom: 18px; */
   text-align: justify;
   color: var(--text-color);
-  font-size: 3rem;
-  line-height: 1.2;
 }
 
 /* 社交链接 */
