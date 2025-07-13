@@ -152,11 +152,11 @@ a:hover {
 
 .profile-image-container {
   text-align: center;
-  flex: 0 0 330px;
+  flex: 0 0 270px;
 }
 
 .profile-image {
-  max-width: 330px;
+  max-width: 270px;
   width: 100%;
   border-radius: 14px;
   box-shadow: var(--box-shadow);
