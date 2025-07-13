@@ -50,8 +50,6 @@
 body {
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
-  background-color: var(--bg-color);
-  color: var(--text-color);
   line-height: 1;
 }
 
