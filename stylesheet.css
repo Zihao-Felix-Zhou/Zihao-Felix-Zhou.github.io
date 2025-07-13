@@ -296,8 +296,8 @@ body {
   margin-bottom: 18px;
   text-align: justify;
   color: var(--text-color);
-  font-size: 2rem;
-  line-height: 1.75;
+  font-size: 3rem;
+  line-height: 1.2;
 }
 
 /* 社交链接 */
