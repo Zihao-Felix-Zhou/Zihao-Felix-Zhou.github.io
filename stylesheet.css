@@ -129,7 +129,7 @@ html {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-size: 2rem;
+  font-size: 20px;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.0;
@@ -296,7 +296,7 @@ body {
   margin-bottom: 18px;
   text-align: justify;
   color: var(--text-color);
-  font-size: 1.05rem;
+  font-size: 2rem;
   line-height: 1.75;
 }
 
