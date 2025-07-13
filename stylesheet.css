@@ -64,7 +64,7 @@ body {
 }
 
 /* 导航栏 */
-.header {
+/* .header {
   position: sticky;
   top: 0;
   width: 100%;
@@ -74,33 +74,6 @@ body {
   padding: 15px 0;
   transition: all 0.3s ease;
 }
-
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-links {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  align-items: center;
-}
-
-.nav-links li a {
-  color: var(--text-color);
-  text-decoration: none;
-  font-weight: 500;
-  transition: var(--transition);
-  padding: 5px 10px;
-  border-radius: 5px;
-}
-
-.nav-links li a:hover {
-  color: var(--primary-color);
-  background-color: var(--light-gray);
-} */
 
 .theme-toggle, .language-toggle {
   cursor: pointer;
@@ -115,7 +88,7 @@ body {
 .theme-toggle i:hover {
   color: var(--secondary-color);
   transform: rotate(30deg);
-}
+} */
 
 /* 汉堡菜单 */
 .hamburger {
