@@ -71,7 +71,11 @@ h1 {
 <!-- h2 is the second level title -->
 h2 {
   font-size: 38px;
-  border-bottom: 1px solid #ccc;
+  color: var(--primary-color);
+  margin-bottom: 25px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--secondary-color);
+/*   border-bottom: 1px solid #ccc; */
   padding-bottom: 0.3em;
 }
 
