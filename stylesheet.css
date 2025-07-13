@@ -49,11 +49,56 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 20px;
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1;
 }
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+<!-- h1 is the first level title -->
+h1 {
+  font-size: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+<!-- h2 is the second level title -->
+h2 {
+  font-size: 38px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+<!-- h3 is the third level title -->
+h3 {
+  font-size: 37px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3em;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000cc;
+  text-decoration: underline;
+} 
+
+
+
+
 
 /* 容器 */
 .container {
