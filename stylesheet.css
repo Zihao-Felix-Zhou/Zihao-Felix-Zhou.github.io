@@ -61,21 +61,21 @@ h1, h2, h3, h4 {
 
 <!-- h1 is the first level title -->
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3em;
 }
 
 <!-- h2 is the second level title -->
 h2 {
-  font-size: 38px;
+  font-size: 40px;
   border-bottom: 1px solid #ccc; 
   padding-bottom: 0.3em;
 }
 
 <!-- h3 is the third level title -->
 h3 {
-  font-size: 37px;
+  font-size: 35px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3em;
 }
