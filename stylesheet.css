@@ -171,12 +171,6 @@ a:hover {
   transform: scale(1.02);
 }
 
-.bio {
-  font-size: 15px;
-  margin-bottom: 18px; 
-  text-align: justify;
-  color: var(--text-color);
-}
 
 /* 社交链接 */
 .social-links {
