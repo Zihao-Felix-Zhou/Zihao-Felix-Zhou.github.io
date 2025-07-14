@@ -171,26 +171,6 @@ a:hover {
   transform: scale(1.02);
 }
 
-.name {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 10px;
-  text-align: center;
-  letter-spacing: -0.02em;
-}
-
-.chinese-name {
-  font-family: 'KaiTi', 'STKaiti', 'SimKai', serif;
-  font-size: 2.2rem;
-  font-weight: 400;
-  color: var(--secondary-color);
-  margin-bottom: 25px;
-  text-align: center;
-  letter-spacing: 0.15em;
-}
-
 .bio {
   font-size: 15px;
   margin-bottom: 18px; 
