@@ -5,7 +5,7 @@ body {
 
 /* This is the class definition of the header background */
 .header {
-  background-image: url('Hong-Kong.jpg'); 
+  background-image: url('images/Hong-Kong.jpg'); 
   background-size: cover;
   background-position: center;
   height: 400px;
