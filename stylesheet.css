@@ -38,10 +38,11 @@ body {
 
 .info-text h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .info-text p {
   margin: 5px 0;
+  font-size: 24px;
   color: #444;
 }
