@@ -163,3 +163,76 @@ a:hover {
 .publication-links a i {
   font-size: 1rem;
 }
+
+
+
+/* 响应式设计 */
+@media (min-width: 768px) {
+.profile-container {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 60px;
+}
+
+.bio-container {
+  flex: 1;
+  text-align: left;
+}
+
+.profile-image-container {
+  flex: 0 0 430px;
+}
+
+.publication-item {
+  flex-direction: row;
+}
+
+.publication-media {
+  flex: 0 0 38%;
+  max-width: 38%;
+}
+
+.publication-content {
+  flex: 0 0 62%;
+  max-width: 62%;
+}
+}
+
+@media (max-width: 767px) {
+.hamburger {
+  display: block;
+}
+
+.nav-links {
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  background-color: var(--header-bg);
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.nav-links.active {
+  left: 0;
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
