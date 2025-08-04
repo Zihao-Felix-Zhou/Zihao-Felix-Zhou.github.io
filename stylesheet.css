@@ -45,3 +45,31 @@ body {
   margin: 5px 0;
   color: #444;
 }
+
+/* main text */
+.main-text h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: noraml;
+  margin-bottom: 0.5em;
+}
+
+.main-text h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+.main-text p{
+  text-align: justify;
+}
+
+a {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000cc;
+  text-decoration: underline;
+} 
+
