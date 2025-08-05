@@ -108,7 +108,7 @@ a:hover {
 
 .social-links a:hover {
   background-color: var(--primary-color);
-  color: white;
+  color: blue;
   transform: translateY(-3px);
   box-shadow: var(--box-shadow);
 }
