@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* This is the class definition of the header background */
+/* **********************Header********************** */
 .header {
   background-image: url('images/Hong-Kong.jpg'); 
   background-size: cover;
@@ -45,6 +45,7 @@ body {
   margin: 5px 0;
   color: #444;
 }
+/* -------------------------------------------------- */
 
 /* main text */
 .main-container {
@@ -80,7 +81,43 @@ a:hover {
   text-decoration: underline;
 } 
 
-/* Publication highlights */
+/* Social links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  border-radius: 25px;
+  background-color: var(--light-gray);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: var(--transition);
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-size: 0.9rem;
+}
+
+.social-links a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow);
+}
+
+.social-links a i {
+  font-size: 1rem;
+}
+/* -------------------------------------------------- */
+
+/* **************Publication highlights************** */
 .publication-item {
   display: flex;
   flex-direction: column;
@@ -167,8 +204,7 @@ a:hover {
 .publication-links a i {
   font-size: 1rem;
 }
-
-
+/* -------------------------------------------------- */
 
 /* 响应式设计 */
 @media (min-width: 768px) {
