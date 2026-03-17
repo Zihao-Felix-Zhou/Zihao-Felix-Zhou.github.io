@@ -2,7 +2,7 @@
   --primary-color: #1f4f8f;
   --primary-dark: #163a69;
   --accent-color: #eef4ff;
-  --text-color: #000000;
+  --text-color: #1f2937;
   --text-light: #5f6b7a;
   --light-gray: #f4f7fb;
   --border-color: #d7e1ee;
@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: Trebuchet MS;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
 }
@@ -73,14 +73,14 @@ body {
 .main-text h1 {
   text-align: center;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: Bold;
   margin-bottom: 0.5em;
 }
 
 .main-text h2 {
   text-align: left;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: Bold;
 }
 
 .main-text p {
@@ -90,12 +90,12 @@ body {
 }
 
 a {
-  color: #0000FF;
+  color: #0b57d0;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #0000FF;
+  color: #0842a0;
 }
 /* -------------------------------------------------- */
 
@@ -174,8 +174,8 @@ a:hover {
 }
 
 .highlight-media {
-  background: linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
-  padding: 20px 20px 10px;
+  background: transparent;
+  padding: 18px 18px 0;
   overflow: hidden;
 }
 
@@ -185,11 +185,15 @@ a:hover {
   max-height: 520px;
   display: block;
   object-fit: contain;
-  transition: transform 0.35s ease;
+  border: 1px solid #d9e1ec;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .highlight-card:hover .highlight-media img {
-  transform: scale(1.04);
+  transform: scale(1.03);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.2);
 }
 
 .highlight-content {
@@ -375,7 +379,7 @@ a:hover {
   }
 
   .highlight-media {
-    padding: 16px 16px 8px;
+    padding: 14px 14px 0;
   }
 
   .highlight-media img {
