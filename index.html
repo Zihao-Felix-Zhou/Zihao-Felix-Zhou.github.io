@@ -284,10 +284,20 @@
         nextButton.addEventListener("click", () => showSlide(currentIndex + 1));
 
         viewport.addEventListener("pointerdown", (event) => {
+          if (event.pointerType !== "touch") {
+            startX = null;
+            return;
+          }
+
           startX = event.clientX;
         });
 
         viewport.addEventListener("pointerup", (event) => {
+          if (event.pointerType !== "touch") {
+            startX = null;
+            return;
+          }
+
           if (startX === null) {
             return;
           }
@@ -308,6 +318,10 @@
         });
 
         viewport.addEventListener("pointerleave", () => {
+          startX = null;
+        });
+
+        viewport.addEventListener("pointercancel", () => {
           startX = null;
         });
 
