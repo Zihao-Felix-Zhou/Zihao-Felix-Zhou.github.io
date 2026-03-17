@@ -266,6 +266,10 @@
         let currentIndex = 0;
         let startX = null;
 
+        function syncViewportHeight() {
+          viewport.style.height = `${slides[currentIndex].offsetHeight}px`;
+        }
+
         function updateCarousel() {
           track.style.transform = `translateX(-${currentIndex * 100}%)`;
           counter.textContent = `${currentIndex + 1} / ${slides.length}`;
@@ -273,6 +277,8 @@
           const isSingleSlide = slides.length <= 1;
           prevButton.disabled = isSingleSlide;
           nextButton.disabled = isSingleSlide;
+
+          requestAnimationFrame(syncViewportHeight);
         }
 
         function showSlide(index) {
@@ -326,6 +332,8 @@
         });
 
         updateCarousel();
+        window.addEventListener("resize", syncViewportHeight);
+        window.addEventListener("load", syncViewportHeight);
       });
     </script>
 
