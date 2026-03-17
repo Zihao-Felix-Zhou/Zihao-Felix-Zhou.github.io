@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
 }
@@ -85,7 +85,7 @@ body {
 .main-text p {
   text-align: justify;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.25;
 }
 
 a {
