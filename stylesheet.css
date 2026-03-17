@@ -2,7 +2,7 @@
   --primary-color: #1f4f8f;
   --primary-dark: #163a69;
   --accent-color: #eef4ff;
-  --text-color: #1f2937;
+  --text-color: #000000;
   --text-light: #5f6b7a;
   --light-gray: #f4f7fb;
   --border-color: #d7e1ee;
@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
 }
