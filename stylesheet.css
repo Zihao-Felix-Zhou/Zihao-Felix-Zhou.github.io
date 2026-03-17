@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
 }
@@ -85,7 +85,7 @@ body {
 .main-text p {
   text-align: justify;
   font-size: 20px;
-  line-height: 1.8;
+  line-height: 1.45;
 }
 
 a {
@@ -135,6 +135,27 @@ a:hover {
 /* -------------------------------------------------- */
 
 /* *********************Highlights******************* */
+.highlights-carousel {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.highlight-viewport {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.highlight-track {
+  display: flex;
+  transition: transform 0.45s ease;
+  will-change: transform;
+}
+
+.highlight-slide {
+  flex: 0 0 100%;
+  min-width: 100%;
+}
+
 .highlight-card {
   width: 100%;
   background-color: var(--card-bg);
@@ -142,7 +163,6 @@ a:hover {
   border-radius: 18px;
   box-shadow: var(--box-shadow);
   overflow: hidden;
-  margin-bottom: 50px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -193,7 +213,7 @@ a:hover {
 .highlight-content p {
   margin: 0 0 16px;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.45;
   text-align: left;
 }
 
@@ -236,14 +256,55 @@ a:hover {
 }
 
 .highlight-paper-list a {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.35;
 }
 
 .highlight-paper-list span {
   color: var(--text-light);
-  font-size: 16px;
+  font-size: 15px;
+}
+
+.highlight-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.highlight-nav {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: var(--primary-color);
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.highlight-nav:hover {
+  transform: translateY(-2px);
+  background-color: var(--accent-color);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.16);
+}
+
+.highlight-nav:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  transform: none;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
+}
+
+.highlight-counter {
+  min-width: 64px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-light);
 }
 /* -------------------------------------------------- */
 
@@ -308,7 +369,7 @@ a:hover {
   .main-text p,
   .highlight-content p,
   .highlight-paper-list a {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .highlight-media {
@@ -325,6 +386,20 @@ a:hover {
 
   .highlight-results h3 {
     font-size: 22px;
+  }
+
+  .highlight-controls {
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .highlight-nav {
+    width: 40px;
+    height: 40px;
+  }
+
+  .highlight-counter {
+    font-size: 14px;
   }
 
   .highlight-paper-list span {
