@@ -73,13 +73,14 @@ body {
 .main-text h1 {
   text-align: center;
   font-size: 40px;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: 0.5em;
 }
 
 .main-text h2 {
   text-align: left;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .main-text p {
@@ -89,12 +90,12 @@ body {
 }
 
 a {
-  color: #0b57d0;
+  color: #0000FF;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #0842a0;
+  color: #0000FF;
 }
 /* -------------------------------------------------- */
 
