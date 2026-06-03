@@ -183,15 +183,11 @@ a:hover {
   max-height: 520px;
   display: block;
   object-fit: contain;
-  border: 1px solid #d9e1ec;
-  border-radius: 12px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition: transform 0.35s ease;
 }
 
 .highlight-card:hover .highlight-media img {
   transform: scale(1.03);
-  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.2);
 }
 
 .highlight-content {
